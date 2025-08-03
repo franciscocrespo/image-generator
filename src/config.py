@@ -2,6 +2,11 @@
 import os
 from functools import lru_cache
 
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
 
 class Settings:
     """Application settings."""
